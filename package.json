@@ -5,6 +5,7 @@
   "scripts": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "predev": "chmod 755 ./configuredMethods && chmod +x ./app/_private/utils/submit.sh",
     "prebuild": "chmod 755 ./configuredMethods && chmod +x ./app/_private/utils/submit.sh",
     "prestart": "chmod 755 ./configuredMethods && chmod +x ./app/_private/utils/submit.sh",
@@ -25,12 +26,17 @@
     "next:start": "next start"
 >>>>>>> e3af12d (Implement docker)
 =======
+=======
+>>>>>>> f6c349e (Merge pull request #7 from apausa/docker)
     "dev": "docker-compose up development",
     "start": "docker-compose up production",
     "stop": "docker-compose down",
     "lint": "docker-compose exec development npx next lint --no-cache",
     "test": "docker-compose exec development npx jest"
+<<<<<<< HEAD
 >>>>>>> 0e6e58a (Implement docker for cross-platform compatibility)
+=======
+>>>>>>> f6c349e (Merge pull request #7 from apausa/docker)
   },
   "dependencies": {
     "@nextui-org/react": "^2.1.0",
