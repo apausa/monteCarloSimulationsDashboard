@@ -1,0 +1,43 @@
+# configured simulations
+configuredMethods/*/
+!configuredMethods/readme.md
+
+# dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+.next/
+out
+
+# production
+/build
+
+# generated files
+.DS_Store
+*.pem
+
+# env files
+.env*
+!.env.example
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# ide files
+.vscode
+.idea
+
+# git
+.git
+.gitignore
+
+# docker
+Dockerfile*
+docker-compose*.yml
+.dockerignore
