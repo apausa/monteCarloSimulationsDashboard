@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 <<<<<<< HEAD
@@ -14,6 +15,9 @@
 =======
 # configured simulations
 >>>>>>> f6c349e (Merge pull request #7 from apausa/docker)
+=======
+# configured simulations
+>>>>>>> e6be41d (Merge branch)
 configuredMethods/*/
 !configuredMethods/readme.md
 
