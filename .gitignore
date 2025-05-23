@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 <<<<<<< HEAD
@@ -6,6 +7,9 @@
 =======
 >>>>>>> 119370b (Merge pull request #1 from apausa/refactor)
 # Configured simulations
+=======
+# configured simulations
+>>>>>>> e3af12d (Implement docker)
 configuredMethods/*/
 !configuredMethods/readme.md
 
@@ -22,27 +26,24 @@ configuredMethods/*/
 /coverage
 
 # next.js
-/.next/
-/out/
+.next/
+out
 
 # production
 /build
 
-# misc
+# generated files
 .DS_Store
 *.pem
 
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# local env files
-.env
-
-# vercel
-.vercel
+# env files
+.env*
+!.env.example
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ide files
+.vscode/
+.idea/
