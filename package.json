@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "predev": "chmod 755 ./configuredMethods && chmod +x ./app/_private/utils/submit.sh",
     "prebuild": "chmod 755 ./configuredMethods && chmod +x ./app/_private/utils/submit.sh",
     "prestart": "chmod 755 ./configuredMethods && chmod +x ./app/_private/utils/submit.sh",
@@ -23,6 +24,13 @@
     "next:build": "next build",
     "next:start": "next start"
 >>>>>>> e3af12d (Implement docker)
+=======
+    "dev": "docker-compose up development",
+    "start": "docker-compose up production",
+    "stop": "docker-compose down",
+    "lint": "docker-compose exec development npx next lint --no-cache",
+    "test": "docker-compose exec development npx jest"
+>>>>>>> 0e6e58a (Implement docker for cross-platform compatibility)
   },
   "dependencies": {
     "@nextui-org/react": "^2.1.0",
@@ -44,7 +52,7 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
-    "@types/d3-graphviz": "^2.6.7",
+    "@types/d3-graphviz": "^2.6.10",
     "@types/uuid": "^9.0.2",
     "@types/ws": "^8.5.5",
     "@typescript-eslint/eslint-plugin": "^5.61.0",
