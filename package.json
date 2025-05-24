@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "predev": "chmod 755 ./configuredMethods && chmod +x ./app/_private/utils/submit.sh",
     "prebuild": "chmod 755 ./configuredMethods && chmod +x ./app/_private/utils/submit.sh",
     "prestart": "chmod 755 ./configuredMethods && chmod +x ./app/_private/utils/submit.sh",
@@ -44,6 +45,13 @@
 =======
     "test": "docker-compose exec development npx jest --coverage"
 >>>>>>> e6be41d (Merge branch)
+=======
+    "dev": "docker-compose -f docker/docker-compose.yml up development",
+    "start": "docker-compose -f docker/docker-compose.yml up production",
+    "stop": "docker-compose -f docker/docker-compose.yml down",
+    "lint": "docker-compose -f docker/docker-compose.yml exec development npx next lint --no-cache",
+    "test": "docker-compose -f docker/docker-compose.yml exec development npx jest"
+>>>>>>> a102631 (Organize files)
   },
   "dependencies": {
     "@nextui-org/react": "^2.1.0",
