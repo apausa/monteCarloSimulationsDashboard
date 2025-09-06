@@ -22,6 +22,10 @@ Before running this project:
 
 Docker already implements Node.js to ensure a consistent environment across different systems.
 
+### Important
+
+Integration with `O2sim` could not be tested in this version, so `/cvmfs/alice.cern.ch/bin/alienv enter O2sim` is not being run. Local scripts content is commented out, instead calling `sleep 10` for demonstration purposes (check `app/_private/utils/api.ts`).
+
 ### 1. Clone and Setup
 
 ```bash
