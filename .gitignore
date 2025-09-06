@@ -1,30 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 119370b (Merge pull request #1 from apausa/refactor)
-# Configured simulations
-=======
 # configured simulations
->>>>>>> e3af12d (Implement docker)
-=======
-# configured simulations
->>>>>>> f6c349e (Merge pull request #7 from apausa/docker)
-=======
-# configured simulations
->>>>>>> e6be41d (Merge branch)
 configuredMethods/*/
 !configuredMethods/readme.md
 
-<<<<<<< HEAD
->>>>>>> 6772bf2 (Fix .gitignore file exclusion)
-=======
->>>>>>> 119370b (Merge pull request #1 from apausa/refactor)
 # dependencies
 /node_modules
 /.pnp
