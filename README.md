@@ -26,6 +26,7 @@ Docker already implements Node.js to ensure a consistent environment across diff
 # Clone repository
 git clone https://github.com/apausa/webApplicationDevelopment
 cd webApplicationDevelopment
+git pull
 ```
 
 ### 2. Start the Application
