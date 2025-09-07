@@ -30,8 +30,8 @@ Docker already implements Node.js to ensure a consistent environment across diff
 
 ```bash
 # Clone repository
-git clone https://github.com/apausa/webApplicationDevelopment
-cd webApplicationDevelopment
+git clone https://github.com/apausa/monteCarloSimulationsDashboard
+cd monteCarloSimulationsDashboard
 git pull
 ```
 
