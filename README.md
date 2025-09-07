@@ -26,10 +26,9 @@ Docker already implements Node.js to ensure a consistent environment across diff
 
 **Integration with `O2sim` could not be tested in this version: local scripts content is commented out, instead calling `sleep 10` for demonstration purposes (check `app/_private/utils/api.ts`).**
 
-### 1. Clone and Setup
+### 1. Setup project
 
 ```bash
-# Clone repository, and then
 cd monteCarloSimulationsDashboard
 git pull
 ```
