@@ -29,8 +29,7 @@ Docker already implements Node.js to ensure a consistent environment across diff
 ### 1. Clone and Setup
 
 ```bash
-# Clone repository
-git clone https://github.com/apausa/monteCarloSimulationsDashboard
+# Clone repository, and then
 cd monteCarloSimulationsDashboard
 git pull
 ```
